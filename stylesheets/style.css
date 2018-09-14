@@ -91,17 +91,18 @@ p, h4
     border-collapse: collapse;
 }
 
-.listOfUsers caption
+caption
 {
     font-size: 30px;
+    color: #051B5E;
 }
 
-.listOfUsers tr th
+th
 {
     background-color: #4768CB;
 }
 
-.listOfUsers tr td
+td
 {
     text-align: center;
 }
@@ -122,7 +123,7 @@ p, h4
     text-align: center;
 }
 
-.userBio
+.big
 {
     width: 560px;
     font-size: 20px;
