@@ -1,17 +1,66 @@
 <!doctype html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="utf-8">
-    <title>USERS</title>
-    <meta name="description" content="List of users">
+    <title>Noter</title>
+    <meta name="description" content="Lab1">
     <meta name="author" content="Perehuda Yaroslav">
-</head>
-<body>
-    <h1>LIST OF USERS</h1>
-    <a href="index.html">Index<a>
-    <ol>
-        <li><a href="user1.html">user1<a></li>
-        <li><a href="user2.html">user2<a></li>
-    </ol>
-</body>
+    <link rel="stylesheet" href="stylesheets/style.css">
+  </head>
+  <body>
+    
+    <header>
+      <div class="hat">
+        <img src="images/logo.png" alt="Logo" class="logo">
+        <a class="Name">Noter</a>
+      </div>
+    </header>
+    
+    <div class="container">
+      <ul class="menu">
+        <li>
+          <a href="index.html">Home<a>
+        </li>
+        <li>
+          <a>|<a>
+        </li>
+        <li>
+          <a style="color: darkgray">Users</a>
+        </li>
+        <li>
+          <a>|<a>
+        </li>
+        <li>
+          <a href="notes.html">Notes</a>
+        </li>
+        <li>
+          <a>|<a>
+        </li>
+        <li>
+          <a href="about.html">About</a>
+        </li>
+      </ul>
+    </div>
+
+    <br>
+    <table class="listOfUsers" border="1">
+      <caption><b>List of users</b></caption>
+      <tr>
+        <th>Login</th>
+        <th>FullName</th>
+        <th>Registered</th>
+      </tr>
+      <tr>
+        <td><a href="user1.html">User1<a></td>
+        <td><a href="user1.html">Urka Utnovich<a></td>
+        <td>2017/06/08 17:32:30</td>
+      </tr>
+      <tr>
+        <td><a href="user2.html">Ulyana<a></td>
+        <td><a href="user2.html">Ulyana Cermach<a></td>
+        <td>2018/11/11 06:06:06</td>
+        </tr>
+    </table>
+
+  </body>
 </html>
