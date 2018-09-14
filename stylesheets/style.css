@@ -1,6 +1,7 @@
 body
 {
     width: 960px;
+    background: rgb(122, 134, 141);
     font-family: Arial, Helvetica, sans-serif;
     margin-left: auto;
     margin-right: auto;
@@ -10,6 +11,11 @@ header
 {
     background: url(../images/hat.jpg) no-repeat center top / cover;
     height: 100px; 
+}
+
+p, h4
+{
+    color: #051B5E;
 }
 
 .hat
@@ -31,18 +37,13 @@ header
     font-size: 30px;
 }
 
-.container 
+.short 
 {
     width: 226px;
     height: 22px;
     font-size: 20px;
     margin: 20px 367px;
     text-align: center;
-}
-
-.container p
-{
-    color: #051B5E;
 }
 
 .menu
@@ -60,23 +61,31 @@ header
 
 .menu li a
 {
-    color: #CA5656;
+    color: #C73838;
     text-decoration: none;
 }
 
-.intro
+.normal
 {
     width: 460px;
     font-size: 20px;
-    margin: 0 auto;
+    margin: 20px auto;
     text-align: center;
-    color: #051B5E;
 }
 
 .listOfUsers
 {
     height: 222px;
     width: 800px;
+    margin: 0 auto;
+    border: gray ridge 2px;
+    border-collapse: collapse;
+}
+
+.listOfNotes
+{
+    height: 222px;
+    width: 200px;
     margin: 0 auto;
     border: gray ridge 2px;
     border-collapse: collapse;
@@ -95,4 +104,32 @@ header
 .listOfUsers tr td
 {
     text-align: center;
+}
+
+.avatar
+{
+    height: 100px;
+    width: 100px;
+    border-radius: 160px 160px 160px 160px;
+}
+
+.userInfo 
+{
+    width: 226px;
+    height: 210px;
+    font-size: 20px;
+    margin: 20px 367px;
+    text-align: center;
+}
+
+.userBio
+{
+    width: 560px;
+    font-size: 20px;
+    margin: 0 auto;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: left;
+    border: gray ridge 2px;
+    border-collapse: collapse;
 }
