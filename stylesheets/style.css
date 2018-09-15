@@ -1,7 +1,7 @@
 body
 {
     width: 960px;
-    background: rgb(122, 134, 141);
+    background: rgb(164, 182, 192);
     font-family: Arial, Helvetica, sans-serif;
     margin-left: auto;
     margin-right: auto;
@@ -11,6 +11,34 @@ header
 {
     background: url(../images/hat.jpg) no-repeat center top / cover;
     height: 100px; 
+}
+
+nav
+{
+    padding: 0 auto;
+    margin: 0 auto;
+    height: 42px;
+    background-color: #9D5353;
+}
+
+nav ul
+{
+    height: 42px;
+    list-style: none;
+}
+
+nav ul li a
+{
+    float: left;
+    text-decoration: none;
+    /* padding: 0 20px; */
+    text-align: center;
+    line-height: 42px;
+}
+
+nav ul li a:hover
+{
+    background-color: #560F0F
 }
 
 p, h4
