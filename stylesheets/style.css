@@ -24,6 +24,9 @@ nav
 nav ul
 {
     height: 42px;
+    margin:0 auto;
+    padding: 0;
+    display: table;
     list-style: none;
 }
 
@@ -31,7 +34,7 @@ nav ul li a
 {
     float: left;
     text-decoration: none;
-    /* padding: 0 20px; */
+    padding: 0 20px;
     text-align: center;
     line-height: 42px;
 }
